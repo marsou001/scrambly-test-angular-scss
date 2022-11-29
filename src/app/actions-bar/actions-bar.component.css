@@ -1,0 +1,27 @@
+.actions-bar {
+  background-color: #FFC107;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.actions-bar > div {
+  text-align: center;
+  width: 50%;
+}
+
+a {
+  color: #161834;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .actions-bar {
+    display: none;
+  }
+}
