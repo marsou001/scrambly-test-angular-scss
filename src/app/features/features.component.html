@@ -2,37 +2,12 @@
   <h3>Features</h3>
 
   <div class="features-container">
-    <div class="feature">
+    <div *ngFor="let feature of features" class="feature">
       <div class="image-container">
-        <svg _ngcontent-qco-c35=""><use _ngcontent-qco-c35="" href="/assets/header/navbar-icons-sprite.svg#dollar-circle-icon"></use></svg>
+        <svg _ngcontent-qco-c35=""><use _ngcontent-qco-c35="" [attr.href]="feature.svgIconAnchor"></use></svg>
       </div>
       <div class="text">
-        <p>Unlimited payouts &amp; cashbacks</p>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="image-container">
-        <svg _ngcontent-qco-c35=""><use _ngcontent-qco-c35="" href="/assets/header/navbar-icons-sprite.svg#dollar-circle-icon"></use></svg>
-      </div>
-      <div class="text">
-        <p>Unlimited payouts &amp; cashbacks</p>
-      </div>
-    </div>
-    <div class="feature">
-      <div class="image-container">
-        <svg _ngcontent-qco-c35=""><use _ngcontent-qco-c35="" href="/assets/header/navbar-icons-sprite.svg#dollar-circle-icon"></use></svg>
-      </div>
-      <div class="text">
-        <p>Unlimited payouts &amp; cashbacks</p>
-      </div>
-    </div>
-    <div class="feature">
-      <div class="image-container">
-        <svg _ngcontent-qco-c35=""><use _ngcontent-qco-c35="" href="/assets/header/navbar-icons-sprite.svg#dollar-circle-icon"></use></svg>
-      </div>
-      <div class="text">
-        <p>Unlimited payouts &amp; cashbacks</p>
+        <p>{{ feature.text }}</p>
       </div>
     </div>
   </div>
