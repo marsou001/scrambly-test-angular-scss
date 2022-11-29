@@ -1,0 +1,11 @@
+header {
+  background-color: #161834;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  button {
+    color: #161834;
+    background-color: #161834;
+    padding: 15px;
+  }
+}
