@@ -11,7 +11,7 @@ const features: Feature[] = [
   },
   {
     svgIconAnchor: "/assets/header/navbar-icons-sprite.svg#offer-icon",
-    text: "Tailored-offers for smooth comopletion",
+    text: "Tailored-offers for smooth completion",
   },
   {
     svgIconAnchor: "/assets/header/navbar-icons-sprite.svg#support-icon",
