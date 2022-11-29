@@ -1,0 +1,30 @@
+section {
+  color: #fff;
+  background-color: #161834;
+  text-align: center;
+  padding-block: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 40px;
+}
+
+.image-container {
+  width: 30px;
+  height: 30px;
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .features-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
