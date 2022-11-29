@@ -1,0 +1,11 @@
+section {
+  color: #fff;
+  background-color: #2d2f48;
+  font-size: 14px;
+  text-align: center;
+  padding-block: 20px;
+}
+
+.number-of-reviews {
+  font-weight: 800;
+}
