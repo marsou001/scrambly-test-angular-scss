@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: #161834;
+  font-size: 15px;
+  overflow-y: hidden;
+  text-align: left;
+  max-width: 800px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question p {
+  margin-block: 0;
+}
+
+.answer {
+  color: #9b9ca1;
+  margin-top: 15px;
+}
+
+svg {
+  transition: all 0.4s;
+}

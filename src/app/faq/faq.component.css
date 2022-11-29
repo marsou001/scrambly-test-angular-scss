@@ -1,0 +1,16 @@
+section {
+  background-color: #0c0e26;
+  background-image: url("https://scrambly-dev.web.app/assets/background.png");
+  background-repeat: no-repeat;
+  background-position: 0 70px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 40px;
+}

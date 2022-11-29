@@ -1,0 +1,10 @@
+<div class="wrapper" [attr.style]="isOpen ? openFaqItemWrapperStyle : closedFaqItemWrapperStyle" (click)="toggle()">
+  <div class="question">
+    <p>{{ faqItem.question }}</p>
+    <div class="question-control">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" [attr.style]="isOpen ? openFaqArrowStyle : closedFaqArrowStyle"><path fill="none" stroke="#FFC107" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+    </div>
+  </div>
+
+  <div class="answer">{{ faqItem.answer }}</div>
+</div>
