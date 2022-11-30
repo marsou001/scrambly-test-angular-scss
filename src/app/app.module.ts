@@ -10,6 +10,7 @@ import { FeaturesComponent } from './features/features.component';
 import { FaqComponent } from './faq/faq.component';
 import { FaqItemComponent } from './faq-item/faq-item.component';
 import { SupportComponent } from './support/support.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SupportComponent } from './support/support.component';
     FaqComponent,
     FaqItemComponent,
     SupportComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
