@@ -20,6 +20,16 @@ h3 {
   margin-inline: auto;
 }
 
+.feature {
+  padding-top: 15px;
+  border-radius: 8px;
+  transition: background-color .2s;
+}
+
+.feature:hover {
+  background-color: #0c0e26;
+}
+
 .image-container {
   width: 30px;
   height: 30px;
