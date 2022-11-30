@@ -1,6 +1,8 @@
+@import '../../scss/_variables';
+
 section {
-  color: #fff;
-  background-color: #161834;
+  color: $white;
+  background-color: $background-gray-medium;
   text-align: center;
   padding-block: 15px;
   h3 {
@@ -20,7 +22,7 @@ section {
       border-radius: 8px;
       transition: background-color .2s;
       &:hover {
-        background-color: #0c0e26;
+        background-color: $background-gray-strong;
       }
       .image-container {
         width: 30px;
@@ -34,7 +36,7 @@ section {
         }
       }
     }
-    @media (min-width: 768px) {
+    @media (min-width: $sm) {
       grid-template-columns: 1fr 1fr;
     }
   }

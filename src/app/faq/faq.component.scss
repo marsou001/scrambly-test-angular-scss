@@ -1,9 +1,11 @@
+@import '../../scss/_variables';
+
 section {
-  background-color: #0c0e26;
+  background-color: $background-gray-strong;
   background-image: url("https://scrambly-dev.web.app/assets/background.png");
   background-repeat: no-repeat;
   background-position: 0 70px;
-  color: #fff;
+  color: $white;
   text-align: center;
   padding: 15px;
   h3 {

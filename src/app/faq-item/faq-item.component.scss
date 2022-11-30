@@ -1,5 +1,7 @@
+@import '../../scss/_variables';
+
 .wrapper {
-  background-color: #161834;
+  background-color: $background-gray-medium;
   font-size: 15px;
   overflow-y: hidden;
   text-align: left;
@@ -22,7 +24,7 @@
     }
   }
   .answer {
-    color: #9b9ca1;
+    color: $text-gray;
     margin-top: 15px;
   }
 }

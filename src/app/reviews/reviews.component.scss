@@ -1,6 +1,8 @@
+@import '../../scss/_variables';
+
 section {
-  color: #fff;
-  background-color: #2d2f48;
+  color: $white;
+  background-color: $background-gray-light;
   font-size: 14px;
   text-align: center;
   display: flex;

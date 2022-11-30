@@ -1,6 +1,8 @@
+@import '../../scss/_variables';
+
 footer {
-  color: #b3b3b3;
-  background-color: #0F1129;
+  color: $text-gray-light;
+  background-color: $background-gray-medium-strong;
   text-align: center;
   padding: 20px;
   padding-bottom: 80px;
@@ -25,13 +27,13 @@ footer {
             color: inherit;
             text-decoration: none;
             &:hover {
-              color: #fff;
+              color: $white;
             }
           }
         }
       }
     }
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $md) {
       width: 500px;
       margin-inline: auto;
     }
@@ -47,18 +49,18 @@ footer {
         margin-inline: 20px;
         a {
           svg {
-            fill: #b3b3b3;
+            fill: $text-gray-light;
             width: 20px;
             height: 20px;
             &:hover {
-              fill: #fff;
+              fill: $white;
             }
           }
         }
       }
     }
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $sm) {
     padding-bottom: 20px;
   }
 }
