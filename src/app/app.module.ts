@@ -9,6 +9,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { FeaturesComponent } from './features/features.component';
 import { FaqComponent } from './faq/faq.component';
 import { FaqItemComponent } from './faq-item/faq-item.component';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FaqItemComponent } from './faq-item/faq-item.component';
     FeaturesComponent,
     FaqComponent,
     FaqItemComponent,
+    SupportComponent,
   ],
   imports: [
     BrowserModule,
