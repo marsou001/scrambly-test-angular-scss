@@ -7,13 +7,13 @@ section {
   justify-content: center;
   align-items: center;
   padding-block: 20px;
-}
-
-.number-of-reviews {
-  font-weight: 800;
-}
-
-.trustpilot {
-  display: inline-block;
-  width: 80px;
+  span {
+    .number-of-reviews {
+      font-weight: 800;
+    }
+  }
+  .trustpilot {
+    display: inline-block;
+    width: 80px;
+  }
 }
