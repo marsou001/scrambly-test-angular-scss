@@ -5,7 +5,7 @@ import data from 'src/data/faqItems';
 @Component({
   selector: 'app-faq',
   templateUrl: './faq.component.html',
-  styleUrls: ['./faq.component.css']
+  styleUrls: ['./faq.component.scss']
 })
 
 export class FaqComponent {
