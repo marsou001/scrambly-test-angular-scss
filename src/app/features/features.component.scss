@@ -3,46 +3,39 @@ section {
   background-color: #161834;
   text-align: center;
   padding-block: 15px;
-}
-
-h3 {
-  font-size: 22px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 40px;
-}
-
-.features-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 50px;
-  max-width: 850px;
-  margin-inline: auto;
-}
-
-.feature {
-  padding-top: 15px;
-  border-radius: 8px;
-  transition: background-color .2s;
-}
-
-.feature:hover {
-  background-color: #0c0e26;
-}
-
-.image-container {
-  width: 30px;
-  height: 30px;
-  margin-inline: auto;
-  overflow: hidden;
-}
-
-.text p {
-  font-size: 14px;
-}
-
-@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
   .features-container {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    max-width: 850px;
+    margin-inline: auto;
+    .feature {
+      padding-top: 15px;
+      border-radius: 8px;
+      transition: background-color .2s;
+      &:hover {
+        background-color: #0c0e26;
+      }
+      .image-container {
+        width: 30px;
+        height: 30px;
+        margin-inline: auto;
+        overflow: hidden;
+      }
+      .text {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 }
