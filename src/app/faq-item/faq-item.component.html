@@ -1,4 +1,4 @@
-<div class="wrapper" [attr.style]="isOpen ? openFaqItemWrapperStyle : closedFaqItemWrapperStyle" (click)="toggle()">
+<div class="wrapper" tabindex="0" [attr.style]="isOpen ? openFaqItemWrapperStyle : closedFaqItemWrapperStyle" (click)="handleClick()" (keydown)="handleKeyDown($event)">
   <div class="question">
     <p>{{ faqItem.question }}</p>
     <div class="question-control">

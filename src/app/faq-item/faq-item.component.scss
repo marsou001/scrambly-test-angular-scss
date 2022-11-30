@@ -27,4 +27,8 @@
     color: $text-gray;
     margin-top: 15px;
   }
+  &:focus {
+    background-color: #151730;
+    outline: none;
+  }
 }

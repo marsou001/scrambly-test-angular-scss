@@ -17,7 +17,17 @@ export class FaqItemComponent {
   openFaqArrowStyle = 'transform: rotate(180deg) scale(0.7);';
   closedFaqArrowStyle = 'transform: rotate(0deg) scale(0.7);';
 
-  toggle() {
+  handleClick() {
+    this.toggle();
+  }
+
+  handleKeyDown($event: KeyboardEvent) {
+    if ($event.key === "Enter") {
+      this.toggle();
+    }
+  }
+
+  private toggle() {
     this.isOpen = !this.isOpen;
   }
 }
