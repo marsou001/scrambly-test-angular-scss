@@ -8,23 +8,21 @@
   padding-inline: 20px;
   transition: all .4s;
   cursor: pointer;
-}
-
-.question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.question p {
-  margin-block: 0;
-}
-
-.answer {
-  color: #9b9ca1;
-  margin-top: 15px;
-}
-
-svg {
-  transition: all 0.4s;
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      margin-block: 0;
+    }
+    div {
+      svg {
+        transition: all 0.4s;
+      }
+    }
+  }
+  .answer {
+    color: #9b9ca1;
+    margin-top: 15px;
+  }
 }
